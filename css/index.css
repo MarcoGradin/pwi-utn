@@ -11,7 +11,7 @@ html {
 .header{
     background-color : rgb(167, 19, 19);
     color: rgb(230, 184, 184) ;
-    height: 80px;
+    height: 100px;
     margin-bottom:   10px;
     margin-left:  auto;
     margin-right:  auto;
@@ -27,15 +27,15 @@ html {
 
 }
 .navbar{
-    background-color: aqua;
-    color: rgb(116, 21, 58);
+    background-color: rgb(18, 17, 20);
+    color: rgb(241, 229, 234);
     width: 85vw ;
     margin-left: auto;
     margin-right: auto;
 }
 .navbar ul{
-    list-style: none;
-    text-align: right;
+    list-style:circle;
+    text-align: center;
 }
 .navbar ul li{
     display: block;
@@ -44,9 +44,9 @@ html {
     text-decoration: none;
     display: block;
     padding: 15px;
-    color: blueviolet;
+    color: rgb(238, 233, 241);
 }
 .navbar ul li a:hover{
-    background: white;
-    color: green;
+    background: rgb(82, 75, 75);
+    color: rgba(185, 16, 16, 0.61);
 }
