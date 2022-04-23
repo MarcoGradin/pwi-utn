@@ -50,3 +50,88 @@ html {
     background: rgb(82, 75, 75);
     color: rgba(185, 16, 16, 0.61);
 }
+
+.banner-top{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor{
+    width: 90%;
+    margin: 0, auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body{
+    background-color: tomato;
+}
+
+#contenedor img{
+    width: 100%;
+}
+
+.primero{
+    padding: 2%;
+
+}
+
+.segundo{
+    padding: 2%;
+}
+
+.tercero{
+    padding: 2%;
+}
+
+.footer{
+    margin-top: 25px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.footer ul {
+    list-style: none;
+}
+.data{
+    background-color: rgb(108, 102, 114);
+    color: black;
+}
+
+.map{
+    width: 60%;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 660px) and (max-width: 989px){
+
+    .body{
+        background: rgb(81, 255, 0);
+    }
+    .logo{width: 100%;
+        text-align: center;}
+    .banner-top{
+        display: none;
+    }
+    .primero{
+        width: 100%;
+    }
+    .segundo{
+        width: 100%;
+    }
+    .tercero{
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 990px) and (max-width: 1900px){
+
+    .body{
+        background: rgb(221, 149, 42);
+    }
+
+}
+
